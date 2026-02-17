@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cambria Siege Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hud">
+    <div class="panel">
+      <h1>Cambria Siege</h1>
+      <div class="stats">
+        <div>Level <span id="lvl">1</span></div>
+        <div>XP <span id="xp">0</span>/<span id="xpNext">100</span></div>
+        <div>Armor <span id="armor">0</span></div>
+        <div>Power <span id="power">10</span></div>
+      </div>
+    </div>
+    <div class="panel inventory">
+      <h2>Inventory</h2>
+      <ul id="inventory"></ul>
+    </div>
+    <div class="panel event" id="eventStatus">Castle peace</div>
+  </div>
+  <canvas id="game" width="960" height="600"></canvas>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
